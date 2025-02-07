@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tartank Software Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="company-name">Tartank Software Co.</h1>
+        <p id="tagline">A Reliable Solution for Your Software Development and Support</p>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="left-section">
+                <img src="https://pwastore.ir/files/img/icon/logo.png" alt="Logo">
+                <div class="language-selector">
+                    <select id="languageSelect" onchange="changeLanguage()">
+                        <option value="en">English</option>
+                        <option value="fa">فارسی</option>
+                        <option value="de">Deutsch</option>
+                        <option value="zh">中文</option>
+                        <option value="ar">العربية</option>
+                        <option value="fr">Français</option>
+                        <option value="es">Español</option>
+                    </select>
+                </div>
+            </div>
+            <div class="right-section">
+                <a href="#about" id="about-link">About</a>
+                <a href="#services" id="services-link">Services</a>
+                <a href="#pricing" id="pricing-link">Pricing</a>
+                <a href="#faq" id="faq-link">FAQ</a>
+                <a href="#contact" id="contact-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2 id="about-title">About Us</h2>
+            <div class="card">
+                <p id="about-content">Years of experience in custom software development for startups and companies have shown us that their main challenge lies in the lack of access to an in-house technical team and instant support. Today, dozens of successful companies use our services for managing their technical teams and overseeing software development.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 id="services-title">Our Services</h2>
+            <div class="card" id="service-1">Project and Software Analysis: Code review, technology assessment, and current software status reporting.</div>
+            <div class="card" id="service-2">Technical Team Formation: Selection and training of the best programmers for your company.</div>
+            <div class="card" id="service-3">Technical Management and Supervision: Oversight of in-house teams as Tech Lead.</div>
+            <div class="card" id="service-4">Additional Services: DevOps, Marketing, SEO, and internal team training.</div>
+        </section>
+
+        <section id="pricing">
+            <h2 id="pricing-title">Pricing</h2>
+            <div class="card" id="pricing-1">Analysis and Team Formation: $1,008 monthly (2-5 months)</div>
+            <div class="card" id="pricing-2">Monthly Management: $353 for Tech Lead + $176 per in-house developer</div>
+            <div class="card" id="pricing-3">Additional Services: Pricing based on service type</div>
+        </section>
+
+        <section id="faq">
+            <h2 id="faq-title">FAQ</h2>
+            <div class="card" id="faq-1">Can we deploy our own programming team? Yes, the selection and deployment process is handled by us.</div>
+            <div class="card" id="faq-2">Do we face challenges in technical recruitment? No, the entire recruitment process is managed by our team.</div>
+            <div class="card" id="faq-3">Does our technology stack matter? No, we support any technology you currently use.</div>
+        </section>
+
+        <section id="recommendations">
+            <h2 id="recommendations-title">Recommendations</h2>
+            <div class="recommendations-grid">
+                <div class="recommendation-card">
+                    <img src="https://ebrahimsepehr.ir/assets/images/recommendations/systemgroup.jpg" alt="Systemgroup" class="recommendation-image">
+                    <div class="recommendation-content">
+                        <h3 id="recommendation-1-title">Recommendation from Systemgroup Co.</h3>
+                        <a href="https://ebrahimsepehr.ir/assets/pdf/recommendations/systemgroup.pdf" class="recommendation-link" id="view-pdf">View PDF</a>
+                    </div>
+                </div>
+                <div class="recommendation-card">
+                    <img src="https://ebrahimsepehr.ir/assets/images/recommendations/idp.jpg" alt="Iran Data Processing" class="recommendation-image">
+                    <div class="recommendation-content">
+                        <h3 id="recommendation-2-title">Recommendation from Iran Data Processing Co.</h3>
+                        <a href="https://ebrahimsepehr.ir/assets/pdf/recommendations/idp.pdf" class="recommendation-link" id="view-pdf">View PDF</a>
+                    </div>
+                </div>
+                <div class="recommendation-card">
+                    <img src="https://ebrahimsepehr.ir/assets/images/recommendations/pit.jpg" alt="Pasargad IT" class="recommendation-image">
+                    <div class="recommendation-content">
+                        <h3 id="recommendation-3-title">Recommendation from Pasargad Information Technology</h3>
+                        <a href="https://ebrahimsepehr.ir/assets/pdf/recommendations/pit.pdf" class="recommendation-link" id="view-pdf">View PDF</a>
+                    </div>
+                </div>
+                <div class="recommendation-card">
+                    <img src="https://ebrahimsepehr.ir/assets/images/recommendations/kit.jpg" alt="Kharazmi IT" class="recommendation-image">
+                    <div class="recommendation-content">
+                        <h3 id="recommendation-4-title">Recommendation from Kharazmi Information Technology</h3>
+                        <a href="https://ebrahimsepehr.ir/assets/pdf/recommendations/kit.pdf" class="recommendation-link" id="view-pdf">View PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 id="contact-title">Contact Us</h2>
+            <div class="card">
+                <p id="address">Address: Unit 2, No. 11, Nazar Dead End, Manzarieh 2, Niavaran, Tehran, Iran</p>
+                <p id="phone">Phone: <a href="tel:+982122286639">+98 21 2228 6639</a></p>
+                <p id="email">Email: <a href="mailto:info@tartank.com">info@tartank.com</a></p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p id="footer-text">© 2025 Tartank Software Co. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
