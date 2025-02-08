@@ -8,7 +8,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="./style/slider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
@@ -52,6 +53,27 @@
                 <p id="about-content">Years of experience in custom software development for startups and companies have shown us that their main challenge lies in the lack of access to an in-house technical team and instant support. Today, dozens of successful companies use our services for managing their technical teams and overseeing software development.</p>
             </div>
         </section>
+
+        <section id="slider">
+            <div class="slider-container">
+              <div class="slider">
+                <div class="slide" data-lang="fa">
+                  <img src="./img/gallery/01.webp" alt="Software department">
+                  <!-- <p>این توضیحات اسلاید ۱ به فارسی است.</p> -->
+                </div>
+                <div class="slide" data-lang="en" style="display: none;">
+                  <img src="./img/gallery/02.webp" alt="Software department">
+                  <!-- <p>This is Slide 1 description in English.</p> -->
+                </div>
+                <div class="slide" data-lang="en" style="display: none;">
+                  <img src="./img/gallery/03.webp" alt="Software department">
+                  <!-- <p>This is Slide 1 description in English.</p> -->
+                </div>
+              </div>
+              <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+              <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+          </section>
 
         <section id="services">
             <h2 id="services-title">Our Services</h2>
@@ -134,6 +156,7 @@
         <p id="footer-text">© 2025 Tartank Software Co. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
